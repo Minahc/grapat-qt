@@ -15,8 +15,8 @@ qt_add_executable(appCrochet_grapat_tracker
 qt_add_qml_module(appCrochet_grapat_tracker
     URI Crochet_grapat_tracker
     VERSION 1.0
-    QML_FILES
-        Main.qml
+    QML_FILES Main.qml Page.qml
+    RESOURCES Qt_logo_2016.svg
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
