@@ -22,10 +22,10 @@ Rectangle {
 
         spacing: 10
         anchors.left: pattern.right
-        anchors.leftMargin: 10
+        anchors.leftMargin: 20
         anchors.top: pattern.top
-        anchors.bottom: pattern.bottom
         anchors.right: parent.right
+        height: pattern.height
 
         Rectangle {
             id: row_up
@@ -58,6 +58,7 @@ Rectangle {
         anchors.left: parent.left
         anchors.leftMargin: 20
         anchors.top: pattern.bottom
+        anchors.topMargin: 20
         anchors.bottom: parent.bottom
         anchors.right: parent.right
 
